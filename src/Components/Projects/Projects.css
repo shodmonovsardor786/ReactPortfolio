@@ -1,0 +1,126 @@
+.projects {
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #e41749;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects_heading {
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: snow;
+}
+
+.projects_list {
+    padding: 20px;
+    margin: 10px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project_item {
+    perspective-origin: 1500px;
+    margin: 20px;
+    transition: .5s;
+    background-color: #fff;
+    border: 1px solid snow;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project_item:hover {
+    box-shadow: 0 10px 10px black;
+}
+
+
+.project_item img {
+    width: 400px;
+    height: 225px;
+    display: block;
+    object-fit: cover;
+}
+
+.project_item iframe {
+    width: 400px;
+    height: 225px;
+    display: block;
+    object-fit: contain;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.project_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.info h2 {
+    color: #222;
+    padding: 0;
+    margin: 0;
+}
+
+.view {
+    font-size: 20px;
+    color: #222;
+    cursor: pointer;
+}
+
+.create_by {
+    display: inline-block;
+    padding: 5px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border-radius: 10px;
+    color: #222;
+    background-color: yellow;
+    text-shadow: 0 0 10px snow;
+}
+
+
+@media (max-width: 500px) {
+
+    .project_item {
+        width: 80%;
+    }
+    
+    .project_item img {
+        width: 100%;
+    }
+
+    .project_item iframe {
+        width: 100%;
+    }
+
+    .info {
+        font-size: 12px;
+    }
+
+    .create_by {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 300px) {
+    .projects_heading {
+        font-size: 40px;
+        text-align: center;
+    }
+}

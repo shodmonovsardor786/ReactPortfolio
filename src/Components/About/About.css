@@ -1,0 +1,54 @@
+.about {
+    min-height: 100vh;
+    background-color: #fed238;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.about p {
+    flex-grow: 1;
+    width: 60%;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 -10px 10px -5px black;
+    word-spacing: 10px; 
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.about p a {
+    color: blue;
+}
+
+
+@media (max-width: 900px) {
+    .about p {
+        width: 85%;
+        line-height: 1.5;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about p {
+        word-spacing: normal;
+    }
+}
+
+@media (max-width: 300px) {
+    .about h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
