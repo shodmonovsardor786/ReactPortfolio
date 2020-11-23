@@ -43,9 +43,6 @@
     left: 10px;
     width: 130px;
     height: 130px;
-    animation-name: animation;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
 }
 
 .fixed_img img {
@@ -55,19 +52,6 @@
 
 .fixed_img .camera {
     display: none;
-}
-
-@keyframes animation {
-    0% {
-        transform: rotateZ(2deg);
-    }
-    50% {
-        transform: rotateZ(-2deg);
-    }
-
-    100% {
-        transform: rotateZ(2deg);
-    }
 }
 
 .camera {
