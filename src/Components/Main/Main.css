@@ -48,6 +48,7 @@
 .fixed_img img {
     width: 130px;
     height: 130px;
+    z-index: 99999;
 }
 
 .fixed_img .camera {
