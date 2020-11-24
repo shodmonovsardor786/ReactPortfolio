@@ -105,22 +105,6 @@
         font-size: 40px;
     }
     
-    .fixed_img {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        width: 130px;
-        height: 130px;
-    }
-
-    .fixed_img img {
-        width: 130px;
-        height: 130px;
-    }
-
-    .fixed_img .camera {
-        display: none;
-    }
 }
 
 @media (max-width: 500px) {
@@ -139,23 +123,6 @@
 
     .my_name {
         font-size: 35px;
-    }
-    
-    .fixed_img {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        width: 100px;
-        height: 100px;
-    }
-
-    .fixed_img img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .fixed_img .camera {
-        display: none;
     }
     
 }

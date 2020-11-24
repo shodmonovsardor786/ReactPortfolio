@@ -65,7 +65,6 @@ const Projects = () => {
                         </div>
                     </li>
                 </ul>
-                <p className="create_by">Portfolio create by React Js</p>
             </div>
         </>
     )

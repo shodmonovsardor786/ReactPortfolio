@@ -5,13 +5,11 @@ import image from '../../img/image2.jpg'
 
 const Main = () => {
 
-    const [classname, setClassname] = React.useState('images')
-
     return (
         <>
             <main id="section1" className="main">
                 <div>
-                    <div className={classname}>
+                    <div className="images">
                         <img className="my_img" src={image} alt="my" width="380" height="380"/>
                         <div className="camera">
                             <span><FaCamera/></span>
@@ -28,6 +26,5 @@ const Main = () => {
         </>
     )
 }
-
 
 export default Main

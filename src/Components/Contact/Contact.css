@@ -47,12 +47,10 @@
     .contact_item a {
         font-size: 16px;
     }
-}
-
-@media (max-width: 600px) {
-    
-    .contact_list {
-        flex-direction: column;
-        padding: 15px;
+    .contact_item p {
+        display: none;
+    }
+    .contact_item span {
+        font-size: 25px;
     }
 }
