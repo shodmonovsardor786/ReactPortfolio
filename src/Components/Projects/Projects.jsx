@@ -25,7 +25,7 @@ const Projects = () => {
     return (
         <>
             <div id="section3" className="projects">
-                <h1 className="projects_heading">My Projects</h1>
+                <h1 className="projects_heading">Projects</h1>
                 <ul className="projects_list">
                     <li className="project_item">
                         <img src={img1} alt="img" width="400" height="225"/>
