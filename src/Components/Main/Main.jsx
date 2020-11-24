@@ -7,18 +7,6 @@ const Main = () => {
 
     const [classname, setClassname] = React.useState('images')
 
-    React.useEffect(() => {
-        window.addEventListener('scroll' , () => {
-
-            if(window.pageYOffset > 680) {
-                setClassname('images fixed_img')
-            }
-            else {
-                setClassname('images')
-            }
-        })
-    }, [])
-    
     return (
         <>
             <main id="section1" className="main">
