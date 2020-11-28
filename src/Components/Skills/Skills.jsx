@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skills.css'
-import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaJs, FaSass, FaReact, FaNode, FaImages, FaDatabase, FaInfoCircle, FaInfo, FaRocket } from 'react-icons/fa'
-
+import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaJs, FaSass, FaReact, FaNode, FaImages, FaInfo } from 'react-icons/fa'
+import { SiApollographql, SiPostgresql, SiPostman } from 'react-icons/si';
 
 const Skills = () => {
     return (
@@ -45,7 +45,7 @@ const Skills = () => {
                         <p>NodeJs</p>
                     </li>
                     <li className="item">
-                        <span><FaDatabase color="#333"/></span>
+                        <span><SiPostgresql color="#333"/></span>
                         <p>PostgreSql</p>
                     </li>
                     <li className="item">
@@ -53,11 +53,11 @@ const Skills = () => {
                         <p>RestApi</p>
                     </li>
                     <li className="item">
-                        <span><FaInfoCircle color="#111"/></span>
+                        <span><SiApollographql color="#111"/></span>
                         <p>Apollo-server</p>
                     </li>
                     <li className="item">
-                        <span><FaRocket color="orange"/></span>
+                        <span><SiPostman color="orange"/></span>
                         <p>Postman</p>
                     </li>
                 </ul>
