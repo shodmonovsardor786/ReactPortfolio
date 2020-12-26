@@ -6,7 +6,6 @@ const About = () => {
         <>
             <div id="section2" className="about">
                 <h1>About me</h1>
-
                 <p>
                     Assalamu alaykum!
                     <br/>Mening ismim Sardor, yoshim 18da. Men IT sohasiga juda qiziqaman.

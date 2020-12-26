@@ -49,14 +49,14 @@ const Projects = () => {
                             <a href="https://shodmonovsardor786.github.io/Football-ticket/" className="view"><FaEye/></a>
                         </div>
                     </li>
-                    <li className="project_item">
+                    {/* <li className="project_item">
                         <div>
                             <ReactPlayer url='https://youtu.be/F7hvqq8x8_k' width="400" height="225"/>
                         </div>
                         <div className="info">
                             <h2>Rent Us</h2>
                         </div>
-                    </li>
+                    </li> */}
                     <li className="project_item">
                         <img src={img3} alt="img" width="400" height="225"/>
                         <div className="info">

@@ -4,7 +4,6 @@ import { FaCamera } from 'react-icons/fa'
 import image from '../../img/image2.jpg'
 
 const Main = () => {
-
     return (
         <>
             <main id="section1" className="main">
